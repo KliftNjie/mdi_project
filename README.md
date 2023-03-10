@@ -1,1 +1,0 @@
-# mdi_project
