@@ -1,0 +1,53 @@
+.services {
+    padding: 0 3rem 0 4rem;
+    display: flex;
+    margin-top: 3rem;
+    /* scroll view */
+    padding-top: 3rem;
+  }
+
+  .s-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0.5rem;
+    /* gap: 20px; */
+  }
+  .s-left > :nth-child(1) {
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+ 
+  .s-left> :nth-child(2) {
+    color: black;
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .s-button {
+    width: 12rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .s-right{
+    position: relative;
+  }
+  .s-right>*{
+    position: absolute;
+  }
+  .card1{
+    top: 10rem;
+  }
+  .card2{
+    top: 7rem;
+    left: 17rem;
+  }
+  .card3{
+    top: 4rem;
+   left: 34rem;
+    
+  }
