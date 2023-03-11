@@ -14,12 +14,7 @@
     border-radius: 20px;
     padding: 35px 26px 2rem 26px;
   }
-  .card:hover {
-    width: 11rem;
-    height: 13rem;
-    background-color: var(--orange);
-    color: white;
-  }
+
   .card span:nth-of-type(2) {
     color: black;
     font-weight: bold;

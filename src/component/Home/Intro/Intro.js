@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Logo from '../Images/logo.png'
+import Navbar from '../Navbar/Navbar.js'
+
+
 import './Intro.css'
 const Intro = () => {
   return (
@@ -8,7 +9,7 @@ const Intro = () => {
         <Navbar/>
         <div className='sub-i'>
             <div className='sub-i-left'>
-                <span  className='header-intro'>Managment Development Institute</span>
+                <span className='header-intro'>Managment Development Institute</span>
                 <br/>
                 <br/>
                 <br/>

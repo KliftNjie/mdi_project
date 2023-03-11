@@ -1,7 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Logo from '../Images/logo.png'
 import './Navbar.css'
+import { motion } from 'framer-motion'
 const Navbar = () => {
+  const [fix, setFix]= useState(false)
+
+  const setFixed =()=>{
+      if (window.scrollY >=392){
+        setFix(true)
+      }
+      else{
+        setFix(false)
+      }
+  }
+
   return (
     <div className='navbar'>
         <div className='n-left'>

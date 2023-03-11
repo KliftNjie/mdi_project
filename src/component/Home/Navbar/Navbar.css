@@ -6,6 +6,8 @@
     padding: 0.5rem 2rem;
     background-color: white;
     opacity: 0.50;
+    position: sticky;
+    top: 0;
 }
 .n-left img{
    width: 5rem
